@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  overflow-x: hidden;
+  background-color: #000000;
+}
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.btn-mobile {
+  color: #f5f5f5;
+  margin: 3rem;
+  height: 4rem;
+  width: 4rem;
+  transition: 0.8s;
+}
+
+.btn-mobile:active {
+  transform: scale(0.8);
+}
+
+.btn-mobile[name="close-outline"] {
+  display: none;
+}
+
+.section-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 15rem;
+  transition: 0.5s;
+  z-index: 9999;
+  background: #000000c0;
+}
+
+.navigation {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 8rem 1rem 4rem;
+}
+
+.logo {
+  width: 12rem;
+}
+
+.nav-list {
+  display: flex;
+  font-size: 3rem;
+  gap: 10rem;
+  list-style: none;
+  position: relative;
+}
+
+.nav-el {
+  text-decoration: none;
+  transition: 0.5s;
+  color: #f5f5f5;
+}
+
+.nav-el:hover {
+  color: #cccccc;
+}
+
+.nav-el:active {
+  color: #a1a1a1;
+}
+
+.section-vid {
+  max-height: 200vh;
+}
+
+.video-box {
+  padding: 5rem;
+  padding-top: 15rem;
+  text-align: center;
+}
+
+.vid {
+  width: 50rem;
+  height: 100rem;
+}
+
+.vid-title {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #f5f5f5;
+  margin-bottom: 5rem;
+}
+
+.section-footer {
+  margin-bottom: 0;
+  width: 100%;
+  background-color: #070707;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-weight: 200;
+  font-size: 2rem;
+  color: #a1a1a1;
+}
+
+.contact-info {
+  padding-bottom: 1rem;
+  text-decoration: none;
+  color: #a1a1a1;
+}
+
+.social {
+  display: flex;
+}
+
+.social-icon {
+  color: #a1a1a1;
+  padding: 2rem;
+  font-size: 3rem;
+}
+
+.social-btn:hover {
+  color: #6c6c6c;
+  transition: 0.5s;
+}
+
+.social-btn:active {
+  color: #525252;
+}
